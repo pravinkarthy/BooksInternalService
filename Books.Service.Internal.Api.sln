@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Books.Service.Internal.Api", "Books.Service.Api\Books.Service.Internal.Api.csproj", "{860D31A6-60A4-4CFF-AB46-D764E046C22E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Books.Service.Api.Tests", "Books.Service.Api.Tests\Books.Service.Api.Tests.csproj", "{976D7872-72C7-4AFC-9F61-C0112B98F372}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{676ADB41-2BFB-433E-BDA7-491949A69157}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{860D31A6-60A4-4CFF-AB46-D764E046C22E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{860D31A6-60A4-4CFF-AB46-D764E046C22E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{860D31A6-60A4-4CFF-AB46-D764E046C22E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{860D31A6-60A4-4CFF-AB46-D764E046C22E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{976D7872-72C7-4AFC-9F61-C0112B98F372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{976D7872-72C7-4AFC-9F61-C0112B98F372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{976D7872-72C7-4AFC-9F61-C0112B98F372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{976D7872-72C7-4AFC-9F61-C0112B98F372}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BACF5E2-4DA2-43F0-9F5B-83F2D7C2F14E}
+	EndGlobalSection
+EndGlobal
